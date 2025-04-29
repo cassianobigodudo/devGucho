@@ -1,0 +1,154 @@
+.app-container{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    color: white;
+    background-color: rgb(96, 74, 74);
+}
+
+    .tamagucho-container{
+        height: 100%;
+        width: 70%;
+        /* background-color: violet; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+            .titulo-container{
+
+                /* background-color: green; */
+                height: 30%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+            }
+
+            .atributos{
+                /* background-color: red; */
+                height: 40%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .botoes-tamagucho-container{
+
+                /* background-color: blue; */
+                height: 30%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+
+            }
+
+            .menu-container{
+
+                background-color: whitesmoke;
+                box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                height: 100%;
+                width: 30%;
+            }
+
+                .botoes-menu-container{
+
+                    /* background-color: red; */
+                    border-radius: 20px;
+                    height: 10%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                
+
+            .h1{
+
+                font-size: 150px;
+                font-weight: bold;
+            }
+
+            .lbl-atributos{
+
+                font-size: 60px;
+                font-weight: bold;
+
+            }
+
+            .btn{
+
+                height: 120px;
+                width: 180px;
+                margin-left: 4px;
+                /* font-size: 40px; */
+                background-color: rgba(50, 48, 48, 0.6);
+                color: #f0f0f0;
+                border: none;
+                border-radius: 8px;
+                backdrop-filter: blur(4px);
+                /* padding: 14px 28px; */
+                margin-left: 10px;
+                font-weight: bold;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+                transition: all 0.3s ease;
+                font-size: 50px;
+                cursor: pointer;
+            }
+            
+            .btn:hover{
+
+                background-color: rgba(40, 40, 40, 0.8);
+                box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+
+            }
+
+            .btn:active{
+
+                background-color: rgba(25, 25, 25, 0.8);
+                box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+            
+            }
+            .btn-menu{
+
+                height: 60px;
+                width: 180px;
+                margin-left: 4px;
+                /* font-size: 40px; */
+                background-color: rgba(50, 48, 48, 0.6);
+                color: #f0f0f0;
+                border: none;
+                border-radius: 8px;
+                backdrop-filter: blur(4px);
+                /* padding: 14px 28px; */
+                margin-left: 10px;
+                font-weight: bold;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+                transition: all 0.3s ease;
+                font-size: 30px;
+                cursor: pointer;
+            }
+            
+            .btn-menu:hover{
+
+                background-color: rgba(40, 40, 40, 0.8);
+                box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+
+            }
+
+            .btn-menu:active{
+
+                background-color: rgba(25, 25, 25, 0.8);
+                box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+            
+            }

@@ -1,0 +1,46 @@
+.lojinho-container{
+    width: 100%;
+    height: 90%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.btn-lojinho{
+
+    height: 120px;
+    width: 100%;
+    /* margin-left: 4px; */
+    /* font-size: 40px; */
+    background-color: rgba(50, 48, 48, 0.6);
+    color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    /* padding: 14px 28px; */
+    /* margin-right: 4px; */
+    margin: 5px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.btn-lojinho:hover{
+
+    background-color: rgba(40, 40, 40, 0.8);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+
+}
+
+.btn-lojinho:active{
+
+    background-color: rgba(25, 25, 25, 0.8);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+
+}
+
+.cafe{
+    width: 80px;
+}
